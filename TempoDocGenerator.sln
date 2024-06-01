@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempoDocGenerator.CLI", "TempoDocGenerator.CLI\TempoDocGenerator.CLI.csproj", "{E5488004-A19E-419B-AA07-F0A548FE4CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempoDocGenerator", "TempoDocGenerator\TempoDocGenerator.csproj", "{3A00C5D8-CB03-45B0-B7A9-58E039457491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempoDocGenerator.Tests", "TempoDocGenerator.Tests\TempoDocGenerator.Tests.csproj", "{08F1B565-917D-42D5-88F4-162250B2EEDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{8B5E2F5D-94D9-4600-8EB3-2A699EE031DF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5488004-A19E-419B-AA07-F0A548FE4CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5488004-A19E-419B-AA07-F0A548FE4CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5488004-A19E-419B-AA07-F0A548FE4CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5488004-A19E-419B-AA07-F0A548FE4CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A00C5D8-CB03-45B0-B7A9-58E039457491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A00C5D8-CB03-45B0-B7A9-58E039457491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A00C5D8-CB03-45B0-B7A9-58E039457491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A00C5D8-CB03-45B0-B7A9-58E039457491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F1B565-917D-42D5-88F4-162250B2EEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F1B565-917D-42D5-88F4-162250B2EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F1B565-917D-42D5-88F4-162250B2EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F1B565-917D-42D5-88F4-162250B2EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906FDBDF-C540-4FF2-B66A-46DD28E07AFD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+**/.vs
+**/obj
+**/bin
+**/*.ncrunchproject
+**/*.ncrunchproject.user
+**/*.ncrunchsolution
+**/*.ncrunchsolution.user
+/.NCrunch_TempoDocGenerator
